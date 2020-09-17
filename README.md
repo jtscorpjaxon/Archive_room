@@ -2,7 +2,7 @@
         
 
 ## Loyiha haqida
-Bu loyiha arxivni modellashtirilgan bo'lib,bunda arxiv xonasida
+Bu loyiha arxiv xonasi modellashtirilgan bo'lib,bunda arxiv xonasidagi
 javonlar,ularda esa papkalar joylashgan, 
 har bir papka o'z o'rniga ya'ni yacheykasiga 
 ega. 
@@ -23,12 +23,12 @@ php artisan db:seed --class=FakeTables
  <img src="/storage/board.jpg">
  <img src="/storage/folder.jpg">
  <img src="/storage/files.jpg">
- 
+ Masalani qo'yilishi
  -Juda ko'p arxiv shkaflari bo'lgan katta xona bor
  
- - Arxiv kabinetida bir nechta kataklar mavjud
+ - Arxiv xonasida bir nechta javonlar mavjud
  
- - Har bir katakka 10-15 ta papka sig'adi
+ - Har bir javondagi katakka 10-15 ta papka sig'adi
  
  - Bitta papkada bir nechta qog'ozli fayllar bo'lishi mumkin
  
@@ -46,7 +46,7 @@ php artisan db:seed --class=FakeTables
  
  ** Ushbu loyihani funsiyalari **
  
- - shkaf va javonni ko'rsatadigan papka yaratish mumkin
+ - shkaf va katakni ko'rsatadigan papka hosil qilish mumkin
  
  - papkani boshqa shkafning boshqa joyiga ko'chirish mumkin
  
