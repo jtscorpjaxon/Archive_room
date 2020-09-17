@@ -1,5 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Controller" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/artisan" scriptParameters="make:controller Standart">
-    <method />
-  </configuration>
-</component>
