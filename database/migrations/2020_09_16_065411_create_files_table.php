@@ -18,7 +18,7 @@ class CreateFilesTable extends Migration
             $table->string('name');
             $table->text('text');
             $table->unsignedBigInteger('folder_id');
-            $table->foreign('folder_id')->references('id')->on('folders');
+            $table->foreign('folder_id')->references('id')->on('folders')->onDelete('cascade');
             $table->timestamps();
         });
     }
