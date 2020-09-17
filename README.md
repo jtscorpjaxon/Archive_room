@@ -38,9 +38,9 @@ php artisan db:seed --class=FakeTables
  
  - Har bir katakning o'ziga xos identifikatsiya raqami mavjud
  
- - Har bir papkaning o'ziga xos identifikatsiya raqami bilan etiketlanadi
+ - Har bir papkaning o'ziga xos identifikatsiya raqami bilan xarakterlanadi
  
- Muammo:
+ Vazifa:
  
  - Kerakli papkani topish qiyinligi
  
