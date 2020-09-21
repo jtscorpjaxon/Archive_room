@@ -24,7 +24,8 @@ php artisan db:seed --class=FakeTables
  <img src="/storage/folder.jpg">
  <img src="/storage/files.jpg">
  Masalani qo'yilishi
- -Juda ko'p arxiv shkaflari bo'lgan katta xona bor
+ <br>
+ - Juda ko'p arxiv shkaflari bo'lgan katta xona bor
  
  - Arxiv xonasida bir nechta javonlar mavjud
  
@@ -53,3 +54,41 @@ php artisan db:seed --class=FakeTables
  - raqamlangan fayllarni ko'rish va papkaga qo'shish mumkin
  
  - Qaysi shkafda va qaysi katakda ekanligini bilish uchun noyob identifikator orqali papkani qidirib topish mumkin
+ <br> <br> <br>
+ ## О проекте
+ Этот проект смоделирован в архивной комнате, в которой архивная комната
+полки с папками,
+каждая папка на своем месте, т.е. в ячейке
+имеет
+ 
+- Есть большая комната где много архив-шкафов
+
+- Архив-шкаф имеет несколько ячеек
+
+- В каждой ячейке по 10-15 папок
+
+- В одной папке может быть несколько бумажных файлов
+
+Дано:
+
+- Кадый Архив-шкаф имеет уникальный идентификационный номер
+
+- Каждая ячейка имеет уникальный идентификационный номер
+
+- Каждая папка имеет метку с уникальным идентификационным номером
+
+Проблема:
+
+- Сложно найти нужную папку
+
+**Функции веб приложения:**
+
+- Создание папки с указанием Шкафа и Ячейки
+
+- Перемещение папки в другую Ячейку другого Шкафа
+
+- Просмотр и добавления оцифрованных файлов в папку
+
+- Поиск папки по уникальному идентификатору чтобы узнать в каком шкафу и в какой ячейке находится
+
+- и т д
